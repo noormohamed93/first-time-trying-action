@@ -12,12 +12,9 @@ jobs:
     runs-on: ubunto-latest
       
     steps:
-      - name: 'Before'
-        run: ls
-
-      - uses: actions/checkout@v3
       
-      - name: 'After'
-        run: ls
+      - uses: actions/checkout@v3
 
+      - name: "Login to Docker hub"
+        run: docker login --username noormohamed93 --password dckr_pat_jqiXtvRh9AdsXCF0nNPlgfN-WIg
      
