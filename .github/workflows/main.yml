@@ -12,8 +12,7 @@ jobs:
     runs-on: ubunto-latest
       
     steps:
-      - name: 'Testing github action'
-        run: pwd
+      - name: 'Printing folder contents'
+        run: ls
 
-      - name: 'Testing Printing'
-        run: echo Ahmed
+     
